@@ -2,11 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import ApiService from "./common/api.service";
 import './registerServiceWorker'
 
 import vuetify from "./plugins/vuetify"
 
 Vue.config.productionTip = false
+ApiService.init()
 
 document.addEventListener("DOMContentLoaded", () => {
   let v = new Vue({
