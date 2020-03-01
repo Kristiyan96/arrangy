@@ -6,9 +6,6 @@ import ApiService from "./common/api.service"
 import './registerServiceWorker'
 import vuetify from "./plugins/vuetify"
 
-import Guest from "@/layout/Guest"
-import Client from "@/layout/Client"
-
 Vue.config.productionTip = false
 ApiService.init()
 

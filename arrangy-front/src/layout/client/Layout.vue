@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Header from "./AppHeader";
-import SidebarLeft from "./AppSidebarLeft";
-import SidebarRight from "./AppSidebarRight";
+import Header from "./Header";
+import SidebarLeft from "../common/SidebarLeft";
+import SidebarRight from "../common/SidebarRight";
 
 export default {
   components: {
