@@ -16,7 +16,7 @@ export default {
   },
   computed: {
     layout() {
-      return this.$route.meta.layout == 'guest' ? GuestLayout : ClientLayout;
+      return this.$route.meta.layout === 'guest' ? GuestLayout : ClientLayout;
     }
   }
 };
